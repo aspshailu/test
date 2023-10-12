@@ -21,7 +21,7 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <main name="main"/>
+  <main name="IMEM"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -103,10 +103,13 @@
       <a name="inputtype" val="row"/>
       <a name="matrixcols" val="32"/>
     </comp>
+    <comp loc="(530,390)" name="DMEM"/>
     <comp loc="(590,230)" name="IMEM"/>
     <wire from="(140,160)" to="(160,160)"/>
     <wire from="(140,180)" to="(150,180)"/>
     <wire from="(150,180)" to="(160,180)"/>
+    <wire from="(180,280)" to="(180,390)"/>
+    <wire from="(180,390)" to="(310,390)"/>
     <wire from="(200,170)" to="(230,170)"/>
     <wire from="(200,210)" to="(230,210)"/>
     <wire from="(230,190)" to="(230,210)"/>
